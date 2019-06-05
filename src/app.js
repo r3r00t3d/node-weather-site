@@ -81,7 +81,7 @@ app.get('/products', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        message: 'This is just a stupid message',
+        message: 'I love when green people use blue ocean for black cover. It\'s easy mate, just set the city you want weather for.',
         title: 'Help',
         name: 'Tomislav A'
     })

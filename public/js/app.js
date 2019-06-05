@@ -1,14 +1,8 @@
-console.log('Client side javascript is loaded!')
-
-
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-one')
 const messageTwo = document.querySelector('#message-two')
 
-messageOne.textContent = ''
-messageTwo.textContent = ''
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
