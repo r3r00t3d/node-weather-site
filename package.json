@@ -14,7 +14,8 @@
     "express": "^4.17.1",
     "hbs": "^4.0.4",
     "request": "^2.88.0",
-    "serve-index": "^1.9.1"
+    "serve-index": "^1.9.1",
+    "lodash": ">=4.17.13"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
